@@ -1,7 +1,7 @@
-import { Container } from './styles'; 
-import { toast, ToastContainer } from 'react-toastify';
 import { useState } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
 import validator from 'validator';
+import { Container } from './styles';
 
 export function Form() {
   const [email, setEmail] = useState<string>('');
@@ -28,7 +28,7 @@ export function Form() {
 
     const form = event.currentTarget; // Store form reference before async call
     const formData = new FormData(form);
-    formData.append("access_key", "0f0b0cc6-16a6-4548-8e66-b0df999b17fe"); // Your Web3Forms Access Key
+    formData.append("access_key", "c945a122-3aea-4755-9a8f-19d6c9139cd3"); // Your Web3Forms Access Key
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {

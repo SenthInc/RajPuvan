@@ -1,9 +1,9 @@
-import { Container } from "./styles";
-import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import atlanticIcon from "../../assets/atlantic.png";
+import externalLink from "../../assets/external-link.svg";
 import mvsIcon from "../../assets/mvs.png";
 import itamilIcon from "../../assets/ta.png";
+import { Container } from "./styles";
 
 export function Project() {
   return (
@@ -19,18 +19,18 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://multivisaservices.ca" target="_blank" rel="noreferrer">
-                  <img src={mvsIcon} alt="MultiVisa Services" />
+                <a href="https://multivisaservice.ca" target="_blank" rel="noreferrer">
+                  <img src={mvsIcon} alt="MultiVisa Service" />
                 </a>
-                <a href="https://multivisaservices.ca" target="_blank" rel="noreferrer">
+                <a href="https://multivisaservice.ca" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Live Project" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>MultiVisa Services</h3>
+              <h3>MultiVisa Service</h3>
               <p>
-                MultiVisa Services specializes in providing expert immigration consultancy, helping individuals apply for Canadian permanent residency through programs like Express Entry, Provincial Nominee Program (PNP), and more.
+                MultiVisa Service specializes in providing expert immigration consultancy, helping individuals apply for Canadian permanent residency through programs like Express Entry, Provincial Nominee Program (PNP), and more.
               </p>
               {/* <img src={mvsIcon} alt="MVS Logo" style={{ width: '100px', marginTop: '10px' }} /> */}
             </div>
