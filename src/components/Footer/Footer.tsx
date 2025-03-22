@@ -1,4 +1,4 @@
-import githubIcon from '../../assets/github.svg'
+import instagram from '../../assets/instagram.svg'
 import tiktokIcon from '../../assets/tiktokIcon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import reactIcon from '../../assets/react-icon.svg'
@@ -12,7 +12,12 @@ export function Footer() {
       <a href="https://multivisaservice.ca" className="logo">
         <span>Raj Puvan</span>
       </a>
-
+      <div>
+        <p>
+           <span>made with ❤️ by senth vyra </span> <img src={reactIcon} alt="React" />
+  
+        </p>
+      </div>
       <div className="social-media">
         <a
         href="https://www.linkedin.com/in/RajPuvan/"
@@ -22,7 +27,7 @@ export function Footer() {
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://www.facebook.com/Rajh-Puvan/100090187713555/"
+          href="https://www.facebook.com/people/Rajh-Puvan/100090187713555/"
           target="_blank"
           rel="noreferrer"
         >
@@ -40,7 +45,7 @@ export function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={facebook} alt="facebook" />
+          <img src={instagram} alt="facebook" />
         </a>
         <a
           href="https://www.tiktok.com/@rajpuvan8/"

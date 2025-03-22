@@ -10,7 +10,7 @@ import typescriptIcon from "../../assets/ta.png";
 import vueIcon from "../../assets/flag.png";
 import boostrapIcon from "../../assets/mvs.png";
 import ScrollAnimation from "react-animate-on-scroll";
-import raj from "../../assets/raj.jpg";                                       
+import raj from "../../assets/raj2.jpg";                                       
 
 export function About() {
   return (

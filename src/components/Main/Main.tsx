@@ -1,20 +1,20 @@
-import Particles from "react-tsparticles"
-import { Container } from "./styles";
-import { Hero } from "../Hero/Hero";
+import Particles from "react-tsparticles";
+import reactIcon from "../../assets/atlantic.png";
+import { default as jsIcon, default as sassIcon } from "../../assets/caa.png";
+import cssIcon from "../../assets/cai.png";
+import wordpress from "../../assets/facebook.svg";
+import vueIcon from "../../assets/flag.png";
+import htmlIcon from "../../assets/instagram.svg";
+import shopify from "../../assets/linkedin.svg";
+import boostrapIcon from "../../assets/mvs.png";
+import nodeIcon from "../../assets/sq.jpg";
+import typescriptIcon from "../../assets/ta.png";
+import Icon from "../../assets/tiktokIcon.svg";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
+import { Hero } from "../Hero/Hero";
 import { Project } from "../Project/Project";
-import wordpress from "../../assets/facebook.svg";
-import shopify from "../../assets/linkedin.svg";
-import htmlIcon from "../../assets/instagram.svg";
-import cssIcon from "../../assets/cai.png";
-import sassIcon from "../../assets/caa.png";
-import jsIcon from "../../assets/caa.png";
-import nodeIcon from "../../assets/sq.jpg"
-import reactIcon from "../../assets/atlantic.png";
-import typescriptIcon from "../../assets/ta.png";
-import vueIcon from "../../assets/flag.png";
-import boostrapIcon from "../../assets/mvs.png";
+import { Container } from "./styles";
 
 export function Main() {
   return (
@@ -160,6 +160,11 @@ export function Main() {
                 },
                 {
                   "src": wordpress,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": Icon,
                   "width": 20,
                   "height": 20
                 },

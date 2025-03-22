@@ -5,7 +5,7 @@ import tiktokIcon from '../../assets/tiktokIcon.svg'
 import Hello from '../../assets/Hello.gif'
 import facebook from '../../assets/facebook.svg'
 import linkedin from '../../assets/linkedin.svg'
-import Illustration from "../../assets/mvx2.jpg"
+import Illustration from "../../assets/raj3.jpg"
 import whatsapp from '../../assets/whatsapp.svg'
 import { Container } from "./styles"
 export function Hero() {
@@ -22,7 +22,7 @@ export function Hero() {
           <h3>Canada Visa Consultant</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">2 Years of Experience</p>
+          <p className="small-resume">5 Years of Experience</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -52,7 +52,7 @@ export function Hero() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://www.facebook.com/Rajh-Puvan/100090187713555/"
+          href="https://www.facebook.com/people/Rajh-Puvan/100090187713555/"
           target="_blank"
           rel="noreferrer"
         >
