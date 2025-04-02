@@ -14,7 +14,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-           <span>made with ❤️ by senth vyra </span> <img src={reactIcon} alt="React" />
+           {/* <span>made with ❤️ by senth vyra </span> <img src={reactIcon} alt="React" /> */}
   
         </p>
       </div>
