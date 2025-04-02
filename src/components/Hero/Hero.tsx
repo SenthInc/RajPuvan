@@ -7,6 +7,7 @@ import facebook from '../../assets/facebook.svg'
 import linkedin from '../../assets/linkedin.svg'
 import Illustration from "../../assets/raj3.jpg"
 import whatsapp from '../../assets/whatsapp.svg'
+import instagram from '../../assets/instagram.svg'
 import { Container } from "./styles"
 export function Hero() {
   return (
@@ -52,7 +53,13 @@ export function Hero() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://www.facebook.com/people/Rajh-Puvan/100090187713555/"
+          href="https://www.facebook.com/100090187713555/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={facebook} alt="Facebook" />
+          <a
+          href="https://www.instagram.com/rajhpuvan/"
           target="_blank"
           rel="noreferrer"
         >

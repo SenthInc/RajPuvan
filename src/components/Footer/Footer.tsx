@@ -41,11 +41,11 @@ export function Footer() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://www.facebook.com/people/Canada-Visa-Toronto/61552357097067"
+          href="https://www.instagram.com/rajhpuvan"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagram} alt="facebook" />
+          <img src={instagram} alt="instagram" />
         </a>
         <a
           href="https://www.tiktok.com/@rajpuvan8/"
