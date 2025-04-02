@@ -58,12 +58,13 @@ export function Hero() {
           rel="noreferrer"
         >
           <img src={facebook} alt="Facebook" />
+          </a>
           <a
           href="https://www.instagram.com/rajhpuvan/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={facebook} alt="Facebook" />
+          <img src={instagram} alt="instagram" />
         </a></div>
         </ScrollAnimation>
       </div>
